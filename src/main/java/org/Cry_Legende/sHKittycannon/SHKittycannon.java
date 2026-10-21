@@ -64,7 +64,7 @@ public class SHKittycannon extends JavaPlugin implements TabExecutor, Listener {
                 if (cat.isValid()) {
                     Location catLocation = cat.getLocation();
                     // Utiliser une particule ressemblant à des croissants de lune
-                    cat.getWorld().spawnParticle(Particle.EXPLOSION_NORMAL, catLocation, 1, 0, 0, 0, 0);
+                    cat.getWorld().spawnParticle(Particle.POOF, catLocation, 1, 0, 0, 0, 0);
                     cat.getWorld().playSound(catLocation, Sound.ENTITY_GENERIC_EXPLODE, 0.1F, 1.6F);
                     cat.remove();
                 }
