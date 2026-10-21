@@ -1,0 +1,16 @@
+name: SHKittycannon
+version: '${project.version}'
+main: org.Cry_Legende.sHKittycannon.SHKittycannon
+api-version: '1.20'
+author: Cry_Legende
+
+commands:
+  kittycannon:
+    description: Lance un chat qui explose.
+    usage: /kittycannon
+    permission: shkittycannon.use
+
+permissions:
+  shkittycannon.use:
+    description: Permet d'utiliser la commande /kittycannon.
+    default: op
